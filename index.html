@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form validator Project</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="form" class="form" action='/' method="POST">
+            <h2>Register With Us</h2>
+            <div class="form-control ">
+                <label for="username">Username</label>
+                <input type="text" id="username" name='username' placeholder="Enter Username">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="Email">Email</label>
+                <input type="text" id="email" name='email' placeholder="Enter Email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="address">address</label>
+                <input type="text" id="address" name='address' placeholder="Enter address">
+                <small>Error Message</small>
+            </div>
+            <button type="submit" name='submit'>Submit</button>
+        </form>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
